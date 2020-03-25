@@ -1,7 +1,7 @@
 import React from 'react';
 import Card from './Card';
 
-
+// รับ friends จาก props ของ CardCollection ในหน้า App.js
 const CardCollection = ( {friends} ) => {
 
   const friendsArray = friends.map(function(user, index) {

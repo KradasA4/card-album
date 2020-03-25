@@ -19,7 +19,7 @@ export const friends = [
 },
 {
   id: 4,
-  fullName: "name",
+  fullName: "direk",
   github: "github",
   display: "https://robohash.org/mock4"
 },
