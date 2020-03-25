@@ -1,24 +1,15 @@
-import React, { Component } from 'react';
+import React from 'react';
 
+const Card = (props) => {
 
-// class Card extends Component {
-//   render() {
-
-//     return(
-//       <div>
-//         Card
-//       </div>
-//     );
-//   }
-// }
-
-const Card = () => {
   return(
-    <div>
-      <img src="" alt=""/>
-      <h2>Mock name</h2>
-      <p>Mock email</p>
-    </div>
+    <article className="tc bg-light-blue br3 pa3 ma3 dib grow bw1 ba shadow-5">
+      <img src={props.display} alt=""/>
+      <div>
+        <h2>{props.fullName}</h2>
+        <p>{props.github}</p>
+      </div>
+    </article>
   );
 }
 

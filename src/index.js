@@ -1,16 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-// import App from './App';
-import Hello from './Hello';
-import Card from './Card';
+import App from './App';
 import * as serviceWorker from './serviceWorker';
 import 'tachyons';
 
 ReactDOM.render(
   <React.StrictMode>
-    {/* <Hello tryme={"Come What May!"} /> */}
-    <Card />
+    <App />
   </React.StrictMode>,
   document.getElementById('root')
 );
