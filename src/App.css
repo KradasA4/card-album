@@ -1,0 +1,11 @@
+@font-face {
+  font-family: 'BROWEN Regular';
+  font-style: normal;
+  font-weight: normal;
+  src: local('BROWEN Regular'), url('https://www.cufonfonts.com/cdn/webfont/browen/Browen-VG4qz.woff?token=C49QMxPXDF6ywolQ9dZIG64fz14y2VQ7') format('woff');
+}
+
+h1 {
+  font-family: 'BROWEN Regular';
+  color: rgb(193, 0, 211);
+}
