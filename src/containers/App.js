@@ -1,8 +1,8 @@
 import React from 'react';
-import { friends } from './Friends';
-import SearchBox from './SearchBox';
-import CardCollection from './CardCollection';
-import Scroll from './Scroll';
+import { friends } from '../Friends';
+import SearchBox from '../components/SearchBox';
+import CardCollection from '../components/CardCollection';
+import Scroll from '../components/Scroll';
 import './App.css';
 
 class App extends React.Component {
