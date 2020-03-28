@@ -3,6 +3,7 @@ import { friends } from '../Friends';
 import SearchBox from '../components/SearchBox';
 import CardCollection from '../components/CardCollection';
 import Scroll from '../components/Scroll';
+import ErrorBoundary from '../components/ErrorBoundary';
 import './App.css';
 
 class App extends React.Component {
@@ -52,7 +53,9 @@ class App extends React.Component {
         <h1 className="f1">CodeCamp Friends</h1>
         <SearchBox searchChange={this.onSearchChange} />
         <Scroll>
-          <CardCollection friends={filteredFriend} />
+          <ErrorBoundary>
+            <CardCollection friends={filteredFriend} />
+          </ErrorBoundary>
         </Scroll>
       </div>
       );
