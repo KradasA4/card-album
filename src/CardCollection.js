@@ -11,6 +11,8 @@ const CardCollection = ( {friends} ) => {
       id={friends[index].id} 
       fullName={friends[index].fullName} 
       github={friends[index].github} 
+      // name={friends[index].name} 
+      // email={friends[index].email} 
       display={friends[index].display} 
     />
     );

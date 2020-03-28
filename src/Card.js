@@ -8,6 +8,8 @@ const Card = (props) => {
       <div>
         <h2>{props.fullName}</h2>
         <p>{props.github}</p>
+        {/* <h2>{props.name}</h2>
+        <p>{props.email}</p> */}
       </div>
     </article>
   );
