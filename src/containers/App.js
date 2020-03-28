@@ -35,11 +35,14 @@ class App extends React.Component {
   }
 
   render() {
-    const filteredFriend = this.state.friends.filter((friend) => {
-      return friend.fullName.toLocaleLowerCase().includes(this.state.searchfield.toLocaleLowerCase());
+    const { friends, searchfield } = this.state;
+
+    const filteredFriend = friends.filter((friend) => {
+      return friend.fullName.toLocaleLowerCase().includes(searchfield.toLocaleLowerCase());
     });
 
-    if(this.state.friends.length === 0) {
+    // ! equals to friends.length === 0
+    if(!friends.length === 0) {
       return <h1>Loading</h1>
     } else {
       
