@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "//kradasa4.github.io//card-album/static/css/main.1df0abb1.chunk.css",
+    "main.js": "//kradasa4.github.io//card-album/static/js/main.ccf90b9d.chunk.js",
+    "main.js.map": "//kradasa4.github.io//card-album/static/js/main.ccf90b9d.chunk.js.map",
+    "runtime-main.js": "//kradasa4.github.io//card-album/static/js/runtime-main.a1bb096f.js",
+    "runtime-main.js.map": "//kradasa4.github.io//card-album/static/js/runtime-main.a1bb096f.js.map",
+    "static/css/2.3b6f1bda.chunk.css": "//kradasa4.github.io//card-album/static/css/2.3b6f1bda.chunk.css",
+    "static/js/2.f5da23ef.chunk.js": "//kradasa4.github.io//card-album/static/js/2.f5da23ef.chunk.js",
+    "static/js/2.f5da23ef.chunk.js.map": "//kradasa4.github.io//card-album/static/js/2.f5da23ef.chunk.js.map",
+    "index.html": "//kradasa4.github.io//card-album/index.html",
+    "precache-manifest.e599ec045e60ccbf7b86ddd443e2cb4f.js": "//kradasa4.github.io//card-album/precache-manifest.e599ec045e60ccbf7b86ddd443e2cb4f.js",
+    "service-worker.js": "//kradasa4.github.io//card-album/service-worker.js",
+    "static/css/2.3b6f1bda.chunk.css.map": "//kradasa4.github.io//card-album/static/css/2.3b6f1bda.chunk.css.map",
+    "static/css/main.1df0abb1.chunk.css.map": "//kradasa4.github.io//card-album/static/css/main.1df0abb1.chunk.css.map",
+    "static/js/2.f5da23ef.chunk.js.LICENSE.txt": "//kradasa4.github.io//card-album/static/js/2.f5da23ef.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a1bb096f.js",
+    "static/css/2.3b6f1bda.chunk.css",
+    "static/js/2.f5da23ef.chunk.js",
+    "static/css/main.1df0abb1.chunk.css",
+    "static/js/main.ccf90b9d.chunk.js"
+  ]
+}
